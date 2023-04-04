@@ -1,12 +1,9 @@
 
-# time 2 find some nerdy faces lesgo
-
-
 import cv2
 import face_recognition
 
 # Load the image
-img_path = "/home/siddharth/ML/image.jpg"
+img_path = "/path-to-image/image.jpg"
 image = cv2.imread(img_path)
 # image = cv2.imread('image.jpg')
 
